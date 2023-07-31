@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_loginscreen.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\loginscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_pogodadlugoterminowa.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\pogodadlugoterminowa.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_linijka_zakupy.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\linijka_zakupy.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\drawable_todo.png.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\drawable\\todo.png"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_terminarz.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\terminarz.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\drawable_lista.png.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\drawable\\lista.png"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_lista_zakupow.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\lista_zakupow.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_kalendarz.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\kalendarz.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\drawable_terminarz.png.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\drawable\\terminarz.png"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_todo.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\todo.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_linijka_terminarz.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\linijka_terminarz.xml"
+    },
+    {
+        "merged": "pl.pollub.projektandroid.app-merged_res-25:/layout_activity_main.xml.flat",
+        "source": "pl.pollub.projektandroid.app-main-27:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\drawable_ikonka.png.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\drawable\\ikonka.png"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_pogoda.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\pogoda.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_dodaj_do_to_do.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\dodaj_do_to_do.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\drawable_line_divider.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\drawable\\line_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\drawable_pogoda.png.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\drawable\\pogoda.png"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_dodaj_do_listy.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\dodaj_do_listy.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_rejestracja.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\rejestracja.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_linijka_todo.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\linijka_todo.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\drawable_kalendarz.png.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\drawable\\kalendarz.png"
+    },
+    {
+        "merged": "pl.pollub.projektandroid.app-merged_res-25:/layout_loginscreen.xml.flat",
+        "source": "pl.pollub.projektandroid.app-main-27:/layout/loginscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\layout_dodaj_do_terminarza.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\layout\\dodaj_do_terminarza.xml"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\drawable_wyloguj.png.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\drawable\\wyloguj.png"
+    },
+    {
+        "merged": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-merged_res-25:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dawid\\.gradle\\daemon\\7.5\\pl.pollub.projektandroid.app-main-27:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]

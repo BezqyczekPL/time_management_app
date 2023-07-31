@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ikonka"
+        android:label="Projekt Android"
+        android:roundIcon="@drawable/ikonka"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".LoginScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".RegisterScreen"
+            android:parentActivityName=".MainActivity" android:label="Rejestracja">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".RegisterScreen" android:label="Menu">
+        </activity>
+        <activity
+            android:name=".ToDoList"
+            android:parentActivityName=".MainActivity" android:label="ToDo">
+        </activity>
+        <activity
+            android:name=".DodajDoToDoList"
+            android:parentActivityName=".ToDoList" android:label="DodajToDo">
+        </activity>
+        <activity
+            android:name=".EdytujToDoList"
+            android:parentActivityName=".ToDoList" android:label="Edytuj ToDo">
+        </activity>
+        <activity
+            android:name=".Lista"
+            android:parentActivityName=".MainActivity" android:label="Lista zakupów">
+        </activity>
+        <activity
+            android:name=".DodajDoListy"
+            android:parentActivityName=".Lista" android:label="Dodaj do listy zakupów">
+        </activity>
+        <activity
+            android:name=".EdytujLista"
+            android:parentActivityName=".Lista" android:label="Edytuj listę zakupów">
+        </activity>
+        <activity
+            android:name=".Pogoda"
+            android:parentActivityName=".MainActivity" android:label="Pogoda">
+        </activity>
+        <activity
+            android:name=".DlugoterminowaPogoda"
+            android:parentActivityName=".Pogoda" android:label="Długoterminowa prognoza">
+        </activity>
+        <activity
+            android:name=".Kalendarz"
+            android:parentActivityName=".MainActivity" android:label="Kalendarz">
+        </activity>
+        <activity
+            android:name=".Terminarz"
+            android:parentActivityName=".Kalendarz" android:label="Terminarz">
+        </activity>
+        <activity
+            android:name=".DodajDoTerminarza"
+            android:parentActivityName=".Terminarz" android:label="Dodaj do terminarza">
+        </activity>
+        <activity
+            android:name=".EdytujTerminarz"
+            android:parentActivityName=".Terminarz" android:label="Edytuj terminarz">
+        </activity>
+        <activity
+            android:name=".DodajDoTerminarzaGotowiec"
+            android:parentActivityName=".Terminarz" android:label="Dodaj do terminarza">
+        </activity>
+    </application>
+
+</manifest>

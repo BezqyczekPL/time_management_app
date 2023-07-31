@@ -1,0 +1,233 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="pl.pollub.projektandroid"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+8-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:5:5-89:19
+14        android:allowBackup="true"
+14-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\dawid\.gradle\caches\transforms-3\27a61698b232547379cf115f269d6a61\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:8:9-65
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:9:9-54
+20        android:icon="@drawable/ikonka"
+20-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:10:9-40
+21        android:label="Projekt Android"
+21-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:11:9-40
+22        android:roundIcon="@drawable/ikonka"
+22-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:12:9-45
+23        android:supportsRtl="true"
+23-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:13:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.AppCompat.NoActionBar"
+25-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:14:9-59
+26        android:usesCleartextTraffic="true" >
+26-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:6:9-44
+27        <activity
+27-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:16:9-28:20
+28            android:name="pl.pollub.projektandroid.LoginScreen"
+28-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:17:13-40
+29            android:exported="true" >
+29-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:18:13-36
+30            <intent-filter>
+30-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:19:13-23:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:20:17-69
+31-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:20:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:22:17-77
+33-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:22:27-74
+34            </intent-filter>
+35
+36            <meta-data
+36-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:25:13-27:36
+37                android:name="android.app.lib_name"
+37-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:26:17-52
+38                android:value="" />
+38-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:27:17-33
+39        </activity>
+40        <activity
+40-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:29:9-32:20
+41            android:name="pl.pollub.projektandroid.RegisterScreen"
+41-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:30:13-43
+42            android:label="Rejestracja"
+42-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:31:56-83
+43            android:parentActivityName="pl.pollub.projektandroid.MainActivity" >
+43-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:31:13-55
+44        </activity>
+45        <activity
+45-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:33:9-36:20
+46            android:name="pl.pollub.projektandroid.MainActivity"
+46-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:34:13-41
+47            android:label="Menu"
+47-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:35:58-78
+48            android:parentActivityName="pl.pollub.projektandroid.RegisterScreen" >
+48-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:35:13-57
+49        </activity>
+50        <activity
+50-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:37:9-40:20
+51            android:name="pl.pollub.projektandroid.ToDoList"
+51-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:38:13-37
+52            android:label="ToDo"
+52-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:39:56-76
+53            android:parentActivityName="pl.pollub.projektandroid.MainActivity" >
+53-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:39:13-55
+54        </activity>
+55        <activity
+55-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:41:9-44:20
+56            android:name="pl.pollub.projektandroid.DodajDoToDoList"
+56-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:42:13-44
+57            android:label="DodajToDo"
+57-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:43:52-77
+58            android:parentActivityName="pl.pollub.projektandroid.ToDoList" >
+58-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:43:13-51
+59        </activity>
+60        <activity
+60-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:45:9-48:20
+61            android:name="pl.pollub.projektandroid.EdytujToDoList"
+61-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:46:13-43
+62            android:label="Edytuj ToDo"
+62-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:47:52-79
+63            android:parentActivityName="pl.pollub.projektandroid.ToDoList" >
+63-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:47:13-51
+64        </activity>
+65        <activity
+65-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:49:9-52:20
+66            android:name="pl.pollub.projektandroid.Lista"
+66-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:50:13-34
+67            android:label="Lista zakupów"
+67-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:51:56-85
+68            android:parentActivityName="pl.pollub.projektandroid.MainActivity" >
+68-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:51:13-55
+69        </activity>
+70        <activity
+70-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:53:9-56:20
+71            android:name="pl.pollub.projektandroid.DodajDoListy"
+71-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:54:13-41
+72            android:label="Dodaj do listy zakupów"
+72-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:55:49-87
+73            android:parentActivityName="pl.pollub.projektandroid.Lista" >
+73-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:55:13-48
+74        </activity>
+75        <activity
+75-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:57:9-60:20
+76            android:name="pl.pollub.projektandroid.EdytujLista"
+76-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:58:13-40
+77            android:label="Edytuj listę zakupów"
+77-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:59:49-85
+78            android:parentActivityName="pl.pollub.projektandroid.Lista" >
+78-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:59:13-48
+79        </activity>
+80        <activity
+80-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:61:9-64:20
+81            android:name="pl.pollub.projektandroid.Pogoda"
+81-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:62:13-35
+82            android:label="Pogoda"
+82-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:63:56-78
+83            android:parentActivityName="pl.pollub.projektandroid.MainActivity" >
+83-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:63:13-55
+84        </activity>
+85        <activity
+85-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:65:9-68:20
+86            android:name="pl.pollub.projektandroid.DlugoterminowaPogoda"
+86-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:66:13-49
+87            android:label="Długoterminowa prognoza"
+87-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:67:50-89
+88            android:parentActivityName="pl.pollub.projektandroid.Pogoda" >
+88-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:67:13-49
+89        </activity>
+90        <activity
+90-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:69:9-72:20
+91            android:name="pl.pollub.projektandroid.Kalendarz"
+91-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:70:13-38
+92            android:label="Kalendarz"
+92-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:71:56-81
+93            android:parentActivityName="pl.pollub.projektandroid.MainActivity" >
+93-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:71:13-55
+94        </activity>
+95        <activity
+95-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:73:9-76:20
+96            android:name="pl.pollub.projektandroid.Terminarz"
+96-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:74:13-38
+97            android:label="Terminarz"
+97-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:75:53-78
+98            android:parentActivityName="pl.pollub.projektandroid.Kalendarz" >
+98-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:75:13-52
+99        </activity>
+100        <activity
+100-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:77:9-80:20
+101            android:name="pl.pollub.projektandroid.DodajDoTerminarza"
+101-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:78:13-46
+102            android:label="Dodaj do terminarza"
+102-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:79:53-88
+103            android:parentActivityName="pl.pollub.projektandroid.Terminarz" >
+103-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:79:13-52
+104        </activity>
+105        <activity
+105-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:81:9-84:20
+106            android:name="pl.pollub.projektandroid.EdytujTerminarz"
+106-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:82:13-44
+107            android:label="Edytuj terminarz"
+107-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:83:53-85
+108            android:parentActivityName="pl.pollub.projektandroid.Terminarz" >
+108-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:83:13-52
+109        </activity>
+110        <activity
+110-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:85:9-88:20
+111            android:name="pl.pollub.projektandroid.DodajDoTerminarzaGotowiec"
+111-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:86:13-54
+112            android:label="Dodaj do terminarza"
+112-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:87:53-88
+113            android:parentActivityName="pl.pollub.projektandroid.Terminarz" >
+113-->C:\Users\dawid\AndroidStudioProjects\ProjektAndroid\app\src\main\AndroidManifest.xml:87:13-52
+114        </activity>
+115
+116        <provider
+116-->[com.squareup.picasso:picasso:2.8] C:\Users\dawid\.gradle\caches\transforms-3\3070e0a40c0b224232ed7fa742b7b008\transformed\picasso-2.8\AndroidManifest.xml:8:9-11:40
+117            android:name="com.squareup.picasso.PicassoProvider"
+117-->[com.squareup.picasso:picasso:2.8] C:\Users\dawid\.gradle\caches\transforms-3\3070e0a40c0b224232ed7fa742b7b008\transformed\picasso-2.8\AndroidManifest.xml:9:13-64
+118            android:authorities="pl.pollub.projektandroid.com.squareup.picasso"
+118-->[com.squareup.picasso:picasso:2.8] C:\Users\dawid\.gradle\caches\transforms-3\3070e0a40c0b224232ed7fa742b7b008\transformed\picasso-2.8\AndroidManifest.xml:10:13-72
+119            android:exported="false" />
+119-->[com.squareup.picasso:picasso:2.8] C:\Users\dawid\.gradle\caches\transforms-3\3070e0a40c0b224232ed7fa742b7b008\transformed\picasso-2.8\AndroidManifest.xml:11:13-37
+120        <provider
+120-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dawid\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+121            android:name="androidx.startup.InitializationProvider"
+121-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dawid\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+122            android:authorities="pl.pollub.projektandroid.androidx-startup"
+122-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dawid\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+123            android:exported="false" >
+123-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dawid\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+124            <meta-data
+124-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dawid\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+125                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+125-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dawid\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+126                android:value="androidx.startup" />
+126-->[androidx.emoji2:emoji2:1.0.0] C:\Users\dawid\.gradle\caches\transforms-3\1dc53c2b6b4d424573e414667881d717\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+127            <meta-data
+127-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dawid\.gradle\caches\transforms-3\c58f49ca58672dc5300be2601586d3c4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+128                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+128-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dawid\.gradle\caches\transforms-3\c58f49ca58672dc5300be2601586d3c4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+129                android:value="androidx.startup" />
+129-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\dawid\.gradle\caches\transforms-3\c58f49ca58672dc5300be2601586d3c4\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+130        </provider>
+131    </application>
+132
+133</manifest>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/organizer"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/kalendarz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kalendarz"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/kalendarz"
+        android:gravity="bottom|center"
+        android:text=""
+        android:textColor="#00E5FF"
+        app:layout_constraintBottom_toTopOf="@+id/prognoza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/terminarz"
+        app:layout_constraintTop_toBottomOf="@id/menu" />
+
+
+    <Button
+        android:id="@+id/terminarz"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/terminarz"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="bottom|center"
+        android:text=""
+        android:textColor="#00E5FF"
+        app:layout_constraintBottom_toTopOf="@+id/lista"
+        app:layout_constraintEnd_toStartOf="@+id/kalendarz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu" />
+
+    <Button
+        android:id="@+id/lista"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/lista"
+        android:gravity="bottom|center"
+        android:text=""
+        android:textColor="#00E5FF"
+        app:layout_constraintBaseline_toBaselineOf="@id/prognoza"
+        app:layout_constraintBottom_toTopOf="@+id/todo"
+        app:layout_constraintEnd_toStartOf="@id/prognoza"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/terminarz" />
+
+    <Button
+        android:id="@+id/prognoza"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="bottom|center"
+        android:text=""
+        android:textColor="#00E5FF"
+        android:background="@drawable/pogoda"
+        app:layout_constraintBottom_toTopOf="@+id/wyloguj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/lista"
+        app:layout_constraintTop_toBottomOf="@id/kalendarz" />
+
+    <Button
+        android:id="@+id/todo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/todo"
+        android:gravity="bottom|center"
+        android:text=""
+        android:textColor="#00E5FF"
+        app:layout_constraintBaseline_toBaselineOf="@id/wyloguj"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/wyloguj"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lista" />
+
+    <Button
+        android:id="@+id/wyloguj"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/wyloguj"
+        android:gravity="bottom|center"
+        android:text=""
+        android:textColor="#00E5FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/todo"
+        app:layout_constraintTop_toBottomOf="@id/prognoza" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

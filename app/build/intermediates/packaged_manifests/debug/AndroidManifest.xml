@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.pollub.projektandroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="31"
+        android:targetSdkVersion="32" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ikonka"
+        android:label="Projekt Android"
+        android:roundIcon="@drawable/ikonka"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="pl.pollub.projektandroid.LoginScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.RegisterScreen"
+            android:label="Rejestracja"
+            android:parentActivityName="pl.pollub.projektandroid.MainActivity" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.MainActivity"
+            android:label="Menu"
+            android:parentActivityName="pl.pollub.projektandroid.RegisterScreen" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.ToDoList"
+            android:label="ToDo"
+            android:parentActivityName="pl.pollub.projektandroid.MainActivity" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.DodajDoToDoList"
+            android:label="DodajToDo"
+            android:parentActivityName="pl.pollub.projektandroid.ToDoList" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.EdytujToDoList"
+            android:label="Edytuj ToDo"
+            android:parentActivityName="pl.pollub.projektandroid.ToDoList" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.Lista"
+            android:label="Lista zakupów"
+            android:parentActivityName="pl.pollub.projektandroid.MainActivity" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.DodajDoListy"
+            android:label="Dodaj do listy zakupów"
+            android:parentActivityName="pl.pollub.projektandroid.Lista" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.EdytujLista"
+            android:label="Edytuj listę zakupów"
+            android:parentActivityName="pl.pollub.projektandroid.Lista" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.Pogoda"
+            android:label="Pogoda"
+            android:parentActivityName="pl.pollub.projektandroid.MainActivity" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.DlugoterminowaPogoda"
+            android:label="Długoterminowa prognoza"
+            android:parentActivityName="pl.pollub.projektandroid.Pogoda" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.Kalendarz"
+            android:label="Kalendarz"
+            android:parentActivityName="pl.pollub.projektandroid.MainActivity" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.Terminarz"
+            android:label="Terminarz"
+            android:parentActivityName="pl.pollub.projektandroid.Kalendarz" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.DodajDoTerminarza"
+            android:label="Dodaj do terminarza"
+            android:parentActivityName="pl.pollub.projektandroid.Terminarz" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.EdytujTerminarz"
+            android:label="Edytuj terminarz"
+            android:parentActivityName="pl.pollub.projektandroid.Terminarz" >
+        </activity>
+        <activity
+            android:name="pl.pollub.projektandroid.DodajDoTerminarzaGotowiec"
+            android:label="Dodaj do terminarza"
+            android:parentActivityName="pl.pollub.projektandroid.Terminarz" >
+        </activity>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="pl.pollub.projektandroid.com.squareup.picasso"
+            android:exported="false" />
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="pl.pollub.projektandroid.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>
