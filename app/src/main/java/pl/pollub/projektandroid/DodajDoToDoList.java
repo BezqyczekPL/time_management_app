@@ -177,7 +177,7 @@ public class DodajDoToDoList extends AppCompatActivity
                                     data[1] = data_dead;
                                     data[2] = godzina_dead;
                                     data[3] = String.valueOf(user_id);
-                                    PutData putData = new PutData("http://87.246.222.160/Projekt/terminarz.php", "POST", field, data);
+                                    PutData putData = new PutData("http://192.168.1.12/Projekt/terminarz.php", "POST", field, data);
                                     if (putData.startPut()) {
                                         if (putData.onComplete()) {
                                             String result = putData.getResult();

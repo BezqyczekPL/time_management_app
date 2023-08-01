@@ -106,7 +106,7 @@ public class ListaAdapter extends RecyclerView.Adapter<ListaAdapter.ListaViewHol
                                                 String[] data = new String[1];
                                                 String pozycja = String.valueOf(lista.getId());
                                                 data[0] = "1";
-                                                PutData putData = new PutData("http://87.246.222.160/Projekt/updateLista.php?id="+pozycja, "POST", field, data);
+                                                PutData putData = new PutData("http://192.168.1.12/Projekt/updateLista.php?id="+pozycja, "POST", field, data);
                                                 if (putData.startPut()) {
                                                     if (putData.onComplete()) {}
                                                 }

@@ -186,7 +186,7 @@ public class EdytujTerminarz extends AppCompatActivity {
                             data[3] = godzinaDoBazy;
                             data[4] = godzina2;
                             Log.d("Test: ", id + wydarzenie + liczba + godzinaDoBazy + godzina2);
-                            PutData putData = new PutData("http://87.246.222.160/Projekt/updateTerminarz.php?id="+id+"&name="+wydarzenie+"&time="+liczba+"&start_time="+godzinaDoBazy+"&end_time="+godzina2, "POST", field, data);
+                            PutData putData = new PutData("http://192.168.1.12/Projekt/updateTerminarz.php?id="+id+"&name="+wydarzenie+"&time="+liczba+"&start_time="+godzinaDoBazy+"&end_time="+godzina2, "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                         Intent intent = new Intent(getApplicationContext(), Terminarz.class);

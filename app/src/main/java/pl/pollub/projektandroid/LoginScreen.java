@@ -58,7 +58,7 @@ public class LoginScreen extends AppCompatActivity
                             String[] data = new String[2];
                             data[0] = email1;
                            data[1] = haslo1;
-                            PutData putData = new PutData("http://87.246.222.160/Projekt/login.php", "POST", field, data);
+                            PutData putData = new PutData("http://192.168.1.12/Projekt/login.php", "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     String result = putData.getResult();

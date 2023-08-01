@@ -124,7 +124,7 @@ public class EdytujLista extends AppCompatActivity
                             data[1] = ilosc;
                             data[2] = czyWcisnieto;
                             data[3] = String.valueOf(user_id);
-                            PutData putData = new PutData("http://87.246.222.160/Projekt/UpdateListaZakupow.php?id="+id+"&produkt="+produkt+"&liczba="+ilosc, "POST", field, data);
+                            PutData putData = new PutData("http://192.168.1.12/Projekt/UpdateListaZakupow.php?id="+id+"&produkt="+produkt+"&liczba="+ilosc, "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
 

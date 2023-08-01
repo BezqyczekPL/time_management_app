@@ -84,8 +84,6 @@ public class DodajDoListy extends AppCompatActivity
                 String produkt = nazwa_produktu.getText().toString();
                 String ilosc = "" + picker.getValue() + " " +displayedValues[picker2.getValue()];
                 String czyWcisnieto = String.valueOf('0');
-                SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
-                String currentDateandTime = sdf.format(new Date());
                 if (produkt.length() == 0)
                 {
                     nazwa_produktu.setError("Nie wpisaleś nazwy produktu!");
@@ -113,7 +111,7 @@ public class DodajDoListy extends AppCompatActivity
                             data[1] = ilosc;
                             data[2] = czyWcisnieto;
                             data[3] = String.valueOf(user_id);
-                            PutData putData = new PutData("http://87.246.222.160/Projekt/lista.php", "POST", field, data);
+                            PutData putData = new PutData("http://192.168.1.12/Projekt/lista.php", "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     String result = putData.getResult();

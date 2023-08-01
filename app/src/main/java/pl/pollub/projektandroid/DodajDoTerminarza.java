@@ -164,7 +164,7 @@ public class DodajDoTerminarza  extends AppCompatActivity {
                             data[4] = String.valueOf(user_id);
                             data[5] = godzina2;
 
-                            PutData putData = new PutData("http://87.246.222.160/Projekt/terminarzyk.php", "POST", field, data);
+                            PutData putData = new PutData("http://192.168.1.12/Projekt/terminarzyk.php", "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     String result = putData.getResult();

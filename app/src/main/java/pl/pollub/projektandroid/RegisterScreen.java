@@ -183,7 +183,7 @@ public class RegisterScreen extends AppCompatActivity
                                 data[4] = finalNazwisko;
                                 data[5] = finalStr;
 
-                                PutData putData = new PutData("http://87.246.222.160/Projekt/rejestracja.php", "POST", field, data);
+                                PutData putData = new PutData("http://192.168.1.12/Projekt/rejestracja.php", "POST", field, data);
                                 if (putData.startPut()) {
                                     if (putData.onComplete()) {
                                         String result = putData.getResult();

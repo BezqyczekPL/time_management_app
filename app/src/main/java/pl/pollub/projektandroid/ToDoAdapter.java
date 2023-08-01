@@ -114,7 +114,7 @@ public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ToDoViewHolder
                             field[0] = "nazwa_wydarzenia";
                             String[] data = new String[1];
                             data[0] = "1";
-                            PutData putData = new PutData("http://87.246.222.160/Projekt/updateToDoTeraz1.php?id=" + to_do.getId(), "POST", field, data);
+                            PutData putData = new PutData("http://192.168.1.12/Projekt/updateToDoTeraz1.php?id=" + to_do.getId(), "POST", field, data);
                             if (putData.startPut()) {
                                 if (putData.onComplete()) {
                                     Intent intencja = new Intent(context, ToDoList.class);
@@ -137,7 +137,7 @@ public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ToDoViewHolder
                                 field[0] = "nazwa_wydarzenia";
                                 String[] data = new String[1];
                                 data[0] = "1";
-                                PutData putData = new PutData("http://87.246.222.160/Projekt/updateToDoTeraz0.php?id=" + to_do.getId(), "POST", field, data);
+                                PutData putData = new PutData("http://192.168.1.12/Projekt/updateToDoTeraz0.php?id=" + to_do.getId(), "POST", field, data);
                                 if (putData.startPut()) {
                                     if (putData.onComplete()) {
                                         Intent intencja = new Intent(context, ToDoList.class);
@@ -180,7 +180,7 @@ public class ToDoAdapter extends RecyclerView.Adapter<ToDoAdapter.ToDoViewHolder
                                                 field[0] = "nazwa_wydarzenia";
                                                 String[] data = new String[1];
                                                 data[0] = "1";
-                                                PutData putData = new PutData("http://87.246.222.160/Projekt/updateToDoZakoncz.php?id="+ to_do.getId(), "POST", field, data);
+                                                PutData putData = new PutData("http://192.168.1.12/Projekt/updateToDoZakoncz.php?id="+ to_do.getId(), "POST", field, data);
                                                 if (putData.startPut()) {
                                                     if (putData.onComplete()) {}
                                                 }
